@@ -1,9 +1,9 @@
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import SingleCoctails from "./pages/SingleCoctails";
-import Error from "./pages/Error";
+import Home from "./pages/Home/Home";
+import About from "./pages/About/About";
+import SingleCoctails from "./pages/SingleCoctails/SingleCoctails";
+import Error from "./pages/Error/Error";
 import Navbar from "./components/Navbar/Navbar";
 
 function App() {
