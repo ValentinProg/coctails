@@ -1,9 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Error = () => {
   return (
-    <div>
-      <h2>Error</h2>
+    <div className="error-page">
+      <div className="error-container">
+        <h1>oops! its a dead end</h1>
+        <Link to='/'>back home</Link>
+      </div>
     </div>
   );
 };

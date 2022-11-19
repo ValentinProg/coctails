@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import SingleCoctails from "./pages/SingleCoctails";
 import Error from "./pages/Error";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
@@ -13,8 +13,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/singlecoctails" element={<SingleCoctails />} />
-        <Route path="/errorpage" element={<Error />} />
+        <Route path="/coctails:id" element={<SingleCoctails />} />
+        <Route path="*" element={<Error />} />
       </Routes>
     </div>
   );
