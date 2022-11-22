@@ -1,12 +1,12 @@
 import React from "react";
-import CoctailList from "../../components/CoctailList/CoctailList";
+import CocktailList from "../../components/CocktailList/CocktailList";
 import SearchForm from "../../components/SearchForm/SearchForm";
 
 const Home = () => {
   return (
     <div>
       <SearchForm />
-      <CoctailList />
+      <CocktailList />
     </div>
   );
 };
