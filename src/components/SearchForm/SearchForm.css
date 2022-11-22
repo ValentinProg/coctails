@@ -1,0 +1,41 @@
+.sectionSearch {
+  height: auto;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchForm {
+  background-color: white;
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  margin: 40px;
+  border-radius: 6px;
+}
+
+.formControl {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.formControl label {
+    font-size: 18px;
+    margin: 15px 0px 0px 20px;
+    text-align: left;
+    color: black;
+}
+
+.formControl input {
+    margin: 10px 15px 15px 15px;
+    font-size: 18px;
+    width: 350px;
+    height: 30px;
+    border-radius: 6px;
+  
+}
